@@ -11,13 +11,13 @@ body {
   position: relative;
 
   .hour {
+    background: #000;
+    height: 20%;
+    left: 48.75%;
     position: absolute;
-    height: 2px;
-    width: 190px;
-    background-color: red;
-    right: 50%;
-    top: 50%;
-    margin-top: -1px;
+    top: 30%;
+    transform-origin: 50% 100%;
+    width: 2.5%;
   }
 }
 
