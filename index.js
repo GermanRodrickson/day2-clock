@@ -1,13 +1,13 @@
 const hour = document.getElementById("hour"); 
-// document.getElementById("p2").style.color = "blue";
+const min = document.getElementById("min"); 
+const secs = document.getElementById("secs"); 
 
-setTimeout( () => { 
-  hour.style.transform = "rotateZ(2deg)";
- }, 1000);
 
-function timeout() {
-  setTimeout(() => {
-    hour.style.transform = "rotateZ(2deg)";
-    timeout();
-  }, 1000);
-}
+// var intervalId = setInterval(function () {
+//   var timoutId = setTimeout(function () {
+//     for (let i = 0; i < 1; i++) {
+//       hour.style.transform = `rotateZ(${-i}deg)`;
+//       console.log(i)
+//     }
+//   }, 1000);
+// }, 1000);

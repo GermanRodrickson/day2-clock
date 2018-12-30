@@ -12,12 +12,33 @@ body {
 
   .hour {
     background: #000;
-    height: 20%;
-    left: 48.75%;
+    height: 30%;
+    left: 50%;
     position: absolute;
     top: 30%;
     transform-origin: 50% 100%;
-    width: 2.5%;
+    width: 5px;
+    margin-left: -2.5px;
+  }
+  .min {
+    background: #000;
+    height: 40%;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    transform-origin: 50% 100%;
+    width: 3px;
+    margin-left: -1.5px;
+  }
+  .secs {
+    background: #000;
+    height: 40%;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    transform-origin: 50% 100%;
+    width: 3px;
+    margin-left: -1.5px;
   }
 }
 
